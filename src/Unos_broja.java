@@ -1,16 +1,15 @@
-import java.util.Scanner; // import the Scanner class
+import java.util.Scanner;
 
 class Unos_broja {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         String ocjena;
 
-        // Enter username and press Enter
         System.out.println("Unesi ocjenu");
         ocjena = myObj.nextLine();
 
         if(ocjena.equals("1")){
-            System.out.println("Nedovoljan"); // Ako je uvjet iz IF istinit ovo se izvrsava
+            System.out.println("Nedovoljan"); 
         }
         else if(ocjena.equals("2")) {
             System.out.println("Dovoljan");
