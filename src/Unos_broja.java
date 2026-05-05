@@ -8,7 +8,7 @@ class Unos_broja {
         System.out.println("Unesi ocjenu:");
         ocjena = myObj.nextLine();
 
-            if(ocjena.equals("1")){
+            /*if(ocjena.equals("1")){
                 System.out.println("Nedovoljan");
             }
             else if(ocjena.equals("2")) {
@@ -25,6 +25,25 @@ class Unos_broja {
             }
             else{
                 System.out.println("Pogresan unos, unesite ocjenu 1-5");
+            }*/
+            switch(ocjena){
+                case "1":
+                    System.out.println("Nedovoljan");
+                    break;
+                case "2":
+                    System.out.println("Dovoljan");
+                    break;
+                case "3":
+                    System.out.println("Dobar");
+                    break;
+                case "4":
+                    System.out.println("Vrlo dobar");
+                    break;
+                case "5":
+                    System.out.println("Odlican");
+                    break;
+                default:
+                    System.out.println("Niste unjeli ocjenu");
             }
         }
     }
