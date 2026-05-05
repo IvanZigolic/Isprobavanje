@@ -5,26 +5,26 @@ class Unos_broja {
         Scanner myObj = new Scanner(System.in);
         String ocjena;
 
-        System.out.println("Unesi ocjenu");
+        System.out.println("Unesi ocjenu:");
         ocjena = myObj.nextLine();
 
-        if(ocjena.equals("1")){
-            System.out.println("Nedovoljan"); 
-        }
-        else if(ocjena.equals("2")) {
-            System.out.println("Dovoljan");
-        }
-        else if(ocjena.equals("3")) {
-            System.out.println("Dobar");
-        }
-        else if(ocjena.equals("4")) {
-            System.out.println("Vrlo dobar");
-        }
-        else if(ocjena.equals("5")) {
-            System.out.println("Odlican");
-        }
-        else{
-            System.out.println("Pogresan unos, unesite ocjenu 1-5");
-        }
+            if(ocjena.equals("1")){
+                System.out.println("Nedovoljan");
+            }
+            else if(ocjena.equals("2")) {
+                System.out.println("Dovoljan");
+            }
+            else if(ocjena.equals("3")) {
+                System.out.println("Dobar");
+            }
+            else if(ocjena.equals("4")) {
+                System.out.println("Vrlo dobar");
+            }
+            else if(ocjena.equals("5")) {
+                System.out.println("Odlican");
+            }
+            else{
+                System.out.println("Pogresan unos, unesite ocjenu 1-5");
+            }
         }
     }
